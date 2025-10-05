@@ -1,0 +1,21 @@
+# Python / Virtual Environment
+__pycache__/
+*.pyc
+venv/
+
+# YOLOv8 Training & Output Artifacts
+runs/
+*.onnx
+*.engine
+
+# Project Data and Large Files (Do NOT commit large data/models directly)
+data/processed/
+processed_video_out.mp4
+yolov8_handgun_best.pt  # This is large and should be tracked via Git LFS if needed.
+
+# Exclude the massive raw video and JSON data
+data/UCLM_Thermal_Imaging_Dataset/
+
+# Exclude the massive processed image/label files
+data/processed/
+

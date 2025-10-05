@@ -1,0 +1,7 @@
+path: D:/MANASVI/projects/CWD/data/processed
+train: images/train
+val: images/val
+
+names:
+  0: Handgun
+  1: Person
